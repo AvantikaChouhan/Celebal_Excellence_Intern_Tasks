@@ -1,0 +1,9 @@
+# Brief Summary
+
+- Loaded the shopping dataset using Pandas.
+- Explored the dataset using head(), info(), and shape.
+- Checked and handled missing values.
+- Removed duplicate records.
+- Performed basic filtering and cleaning operations.
+- Created a new column named new_price.
+- Saved the cleaned dataset as a new CSV file.
