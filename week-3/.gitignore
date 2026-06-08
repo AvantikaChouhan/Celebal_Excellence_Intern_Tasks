@@ -1,0 +1,24 @@
+# MySQL Workbench
+*.mwb
+*.bak
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SQL dump files
+*.sql~
+*.dump
+
+# CSV dataset files (optional)
+Sample - Superstore.csv
+
+# Environment files
+.env
