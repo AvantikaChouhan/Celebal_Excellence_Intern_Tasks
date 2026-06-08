@@ -17,7 +17,7 @@ Thumbs.db
 *.sql~
 *.dump
 
-# CSV dataset files (optional)
+# CSV dataset files
 Sample - Superstore.csv
 
 # Environment files
