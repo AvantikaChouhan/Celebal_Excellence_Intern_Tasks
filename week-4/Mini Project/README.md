@@ -70,7 +70,7 @@ Used for creating datasets, pipelines, and executing data movement activities.
             │
             ▼
 📋 Get Metadata Activity
-      (Validate File)
+      (Metadata Validation)
             │
             ▼
 🔄 Copy Data Activity
@@ -79,7 +79,7 @@ Used for creating datasets, pipelines, and executing data movement activities.
 📤 Destination Dataset
             │
             ▼
-📁 output.csv
+✅ Data Copied Successfully
             │
             ▼
 ✅ Pipeline Succeeded
