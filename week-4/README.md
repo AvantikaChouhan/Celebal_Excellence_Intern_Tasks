@@ -173,4 +173,4 @@ The project focuses on:
 
 ## ✍️ Author
 
-**Avantika Chouhan** 🚀✨
+**Avantika Chouhan**
