@@ -1,0 +1,19 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Azure Data Factory local settings (if any)
+*.publishsettings
+*.user
+*.cache
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Azure credentials
+azureProfile.json
+servicePrincipal.json
