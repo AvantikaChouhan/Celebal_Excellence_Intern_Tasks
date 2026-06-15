@@ -1,8 +1,8 @@
-# ☁️ Azure Data Factory Data Pipeline using Azure Blob Storage
+# ☁️ Azure Cloud Fundamentals and Data Pipeline Implementation using ADF
 
 ## 🎯 Objective
 
-The objective of this project is to build and execute a complete data pipeline using Microsoft Azure services.
+The objective of this project is to understand Azure Cloud Fundamentals and implement a data pipeline using Azure Data Factory (ADF).
 
 This project focuses on:
 
@@ -173,4 +173,4 @@ The project focuses on:
 
 ## ✍️ Author
 
-**Avantika Chouhan** 
+**Avantika Chouhan** 🚀✨
