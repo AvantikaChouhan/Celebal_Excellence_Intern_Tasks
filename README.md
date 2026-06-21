@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-This repository contains weekly assignments and projects completed as part of the Data Engineering learning journey. The work covers data cleaning, SQL database design and analytics, cloud-based data pipelines, and big data processing using Apache Spark.
+This repository contains weekly assignments and projects completed during the Celebal Technologies Data Engineering Internship Program. The work covers data cleaning, SQL database design and analytics, cloud-based data pipelines, and big data processing using Apache Spark.
 
 The assignments demonstrate practical skills in:
 
