@@ -28,9 +28,9 @@ This assignment focuses on:
 
 ## 🗂️ Dataset Used
 
-📁 Dataset Type: Sample DataFrame (Self-Created)
+📁 Dataset Name: spark_assignment_dataset.csv
 
-📄 Format: Spark DataFrame
+📄 File Format: CSV
 
 📊 Columns Included:
 
@@ -38,19 +38,16 @@ This assignment focuses on:
 * transaction_date
 * region
 * product_category
-* price
-* status
+* sale_amount
 * city
 * age
 * subscription
-* raw_timestamp
-* username
 * email
+* username
+* price
 * store_id
-
-
-📝 Note:
-Since no dataset was provided in the assignment, a sample DataFrame was created to demonstrate Spark DataFrame operations, data cleaning, transformations, filtering, and aggregations.
+* raw_timestamp
+* status
 
 ---
 
