@@ -47,6 +47,7 @@ This assignment focuses on:
 * username
 * email
 * store_id
+  
 📝 Note:
 Since no dataset was provided in the assignment, a sample DataFrame was created to demonstrate Spark DataFrame operations, data cleaning, transformations, filtering, and aggregations.
 
