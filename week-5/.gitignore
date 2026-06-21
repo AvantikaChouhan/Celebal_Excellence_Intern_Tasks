@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Google Colab temporary files
+*.tmp
+
+# Log files
+*.log
+
+# Environment files
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
