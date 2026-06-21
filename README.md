@@ -20,34 +20,27 @@ The assignments demonstrate practical skills in:
 ## 🛠️ Technologies Used
 
 ### 📊 Data Analysis & Processing
-
-* Python
-* Pandas
-* NumPy
+- Python
+- Pandas
 
 ### 🗄️ Database Technologies
-
-* MySQL
-* SQL
-* MySQL Workbench
+- MySQL
+- SQL
+- MySQL Workbench
 
 ### ☁️ Cloud Technologies
-
-* Microsoft Azure
-* Azure Blob Storage
-* Azure Data Factory (ADF)
-* IAM (Identity and Access Management)
+- Microsoft Azure
+- Azure Blob Storage
+- Azure Data Factory (ADF)
+- IAM (Identity and Access Management)
 
 ### 🔥 Big Data Technologies
-
-* Apache Spark
-* PySpark
+- Apache Spark
+- PySpark
 
 ### 💻 Development Tools
-
-* Google Colab
-* GitHub
-
+- Google Colab
+- GitHub
 ---
 
 # 📂 Repository Structure
