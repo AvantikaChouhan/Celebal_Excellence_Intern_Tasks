@@ -1,4 +1,4 @@
-# 🚀 Apache Spark Fundamentals and Data Processing using PySpark
+#  Apache Spark Fundamentals and Data Processing using PySpark
 
 ## 🎯 Objective
 
