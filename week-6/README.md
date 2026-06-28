@@ -26,6 +26,8 @@ This assignment focuses on:
 
 🔹 Predicate Pushdown in Parquet
 
+🔹 Understanding Wide Transformations and Shuffle Operations
+
 🔹 Handling Null Values
 
 🔹 Building a Complete Read → Transform → Filter → Write Pipeline
@@ -36,7 +38,7 @@ This assignment focuses on:
 
 ## 🗂️ Dataset Used
 
-📁 **Dataset Name:** dataset.csv
+📁 **Dataset Name:** `dataset.csv`
 
 📄 **File Format:** CSV
 
@@ -94,8 +96,8 @@ This assignment focuses on:
 ### 🔹 Data Loading
 
 * Loaded CSV dataset using Spark DataFrame
-* Used **header=True**
-* Used **inferSchema=True**
+* Used `header=True`
+* Used `inferSchema=True`
 
 ### 🔹 Data Filtering
 
@@ -151,6 +153,10 @@ This assignment focuses on:
 
 🔹 Predicate Pushdown
 
+🔹 Wide Transformations
+
+🔹 Shuffle Operations
+
 🔹 CSV vs Parquet
 
 🔹 Null Value Handling
@@ -170,15 +176,16 @@ Successfully implemented Apache Spark DataFrame operations using PySpark, includ
 The assignment demonstrates efficient processing of large datasets using Apache Spark and follows best practices for scalable and optimized distributed data processing.
 
 ---
+
 ## 📤 Output
 
 The Spark data processing pipeline successfully generated the following output files:
 
-* `week6_parquet/`
-* `week6_output_csv/`
+* `week6_parquet/` – Parquet output generated from the processed dataset.
+* `week6_output_csv/` – Filtered CSV output generated after removing null values from the Parquet dataset.
+
 ---
 
 ## ✍️ Author
 
 **Avantika Chouhan**
-
