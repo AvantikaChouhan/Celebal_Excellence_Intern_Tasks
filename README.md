@@ -1,4 +1,4 @@
-# 🚀 Celebal_Excellence_Intern_Tasks
+#  Celebal_Excellence_Intern_Tasks
 
 ## 📖 Overview
 
