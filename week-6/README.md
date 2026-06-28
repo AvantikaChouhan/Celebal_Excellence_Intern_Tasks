@@ -170,6 +170,13 @@ Successfully implemented Apache Spark DataFrame operations using PySpark, includ
 The assignment demonstrates efficient processing of large datasets using Apache Spark and follows best practices for scalable and optimized distributed data processing.
 
 ---
+## 📤 Output
+
+The Spark data processing pipeline successfully generated the following output files:
+
+* `week6_parquet/`
+* `week6_output_csv/`
+---
 
 ## ✍️ Author
 
