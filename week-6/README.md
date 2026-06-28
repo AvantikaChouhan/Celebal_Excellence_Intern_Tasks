@@ -175,7 +175,3 @@ The assignment demonstrates efficient processing of large datasets using Apache 
 
 **Avantika Chouhan**
 
-
-## Conclusion
-
-This assignment provides hands-on experience with Apache Spark for distributed data processing. It demonstrates efficient handling of large datasets using Spark DataFrames, lazy evaluation, optimized storage formats, and best practices for scalable data processing.
