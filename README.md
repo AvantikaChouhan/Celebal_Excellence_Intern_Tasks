@@ -25,8 +25,7 @@ This repository contains the weekly assignments completed during the **Celebal T
 ## 📂 Repository Structure
 
 ```text
-Data-Engineering-Assignment
-│
+Celebal_Excellence_Intern_Tasks
 ├── Week-1
 ├── Week-2
 ├── Week-3
