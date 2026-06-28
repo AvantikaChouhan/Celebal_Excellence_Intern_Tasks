@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-This repository contains weekly assignments and projects completed during the Celebal Technologies Data Engineering Internship Program.The work covers data cleaning, SQL database design and analytics, cloud-based data pipelines, and big data processing using Apache Spark.
+This repository contains weekly assignments and projects completed during the Celebal Technologies Data Engineering Internship Program. The work covers data cleaning, SQL database design and analytics, cloud-based data pipelines, and big data processing using Apache Spark.
 
 The assignments demonstrate practical skills in:
 
@@ -13,6 +13,7 @@ The assignments demonstrate practical skills in:
 * Azure Data Factory (ADF)
 * Data Pipeline Development
 * Big Data Processing using Apache Spark
+* Spark Architecture and Performance Optimization
 * Data Transformation and Aggregation
 
 ---
@@ -20,56 +21,63 @@ The assignments demonstrate practical skills in:
 ## 🛠️ Technologies Used
 
 ### 📊 Data Analysis & Processing
-- Python
-- Pandas
+
+* Python
+* Pandas
 
 ### 🗄️ Database Technologies
-- MySQL
-- SQL
-- MySQL Workbench
+
+* MySQL
+* SQL
+* MySQL Workbench
 
 ### ☁️ Cloud Technologies
-- Microsoft Azure
-- Azure Blob Storage
-- Azure Data Factory (ADF)
-- IAM (Identity and Access Management)
+
+* Microsoft Azure
+* Azure Blob Storage
+* Azure Data Factory (ADF)
+* IAM (Identity and Access Management)
 
 ### 🔥 Big Data Technologies
-- Apache Spark
-- PySpark
+
+* Apache Spark
+* PySpark
 
 ### 💻 Development Tools
-- Google Colab
-- GitHub
+
+* Google Colab
+* GitHub
+
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
-```text
+```
 Data-Engineering-Assignment
 │
 ├── Week-1
 ├── Week-2
 ├── Week-3
 ├── Week-4
-└── Week-5
+├── Week-5
+└── Week-6
 ```
 
 ---
 
 # 📌 Week 1 – Data Cleaning and Preprocessing using Pandas
 
-### Activities Performed
+## Activities Performed
 
 * Loaded the shopping dataset using Pandas
-* Explored the dataset using `head()`, `info()`, and `shape`
+* Explored the dataset using head(), info(), and shape
 * Identified and handled missing values
 * Removed duplicate records
 * Applied filtering and cleaning operations
-* Created a new column named `new_price`
+* Created a new column named new_price
 * Exported the cleaned dataset
 
-### Concepts Covered
+## Concepts Covered
 
 * Data Loading
 * Data Exploration
@@ -82,11 +90,11 @@ Data-Engineering-Assignment
 
 # 📌 Week 2 – E-Commerce Sales Database using SQL
 
-### Project Overview
+## Project Overview
 
 Designed and implemented a relational e-commerce database using MySQL.
 
-### Concepts Covered
+## Concepts Covered
 
 * Database Creation
 * Primary Keys and Foreign Keys
@@ -98,14 +106,14 @@ Designed and implemented a relational e-commerce database using MySQL.
 * Transactions and ACID Properties
 * Query Optimization
 
-### Tables Created
+## Tables Created
 
 * customers
 * products
 * orders
 * order_items
 
-### Key Learnings
+## Key Learnings
 
 * Relational Database Design
 * SQL Query Writing
@@ -117,18 +125,18 @@ Designed and implemented a relational e-commerce database using MySQL.
 
 # 📌 Week 3 – Superstore Sales Analysis using SQL
 
-### Project Overview
+## Project Overview
 
 Performed sales analysis on the Superstore dataset using advanced SQL concepts.
 
-### Concepts Covered
+## Concepts Covered
 
 * Subqueries
 * Common Table Expressions (CTEs)
 * JOIN Operations
 * Window Functions
 
-### Business Insights Generated
+## Business Insights Generated
 
 * Customer Sales Performance
 * High-Value Customers
@@ -136,7 +144,7 @@ Performed sales analysis on the Superstore dataset using advanced SQL concepts.
 * Sales Trends
 * Customer Order Behavior
 
-### Key Learnings
+## Key Learnings
 
 * Advanced SQL Querying
 * Sales Analytics
@@ -147,18 +155,18 @@ Performed sales analysis on the Superstore dataset using advanced SQL concepts.
 
 # 📌 Week 4 – Azure Cloud Fundamentals and Data Pipeline using ADF
 
-### Project Overview
+## Project Overview
 
 Implemented a cloud-based data pipeline using Microsoft Azure and Azure Data Factory.
 
-### Azure Services Used
+## Azure Services Used
 
 * Azure Resource Group
 * Azure Blob Storage
 * Azure Data Factory (ADF)
 * IAM & RBAC
 
-### Pipeline Components
+## Pipeline Components
 
 * Linked Services
 * Source Dataset
@@ -166,7 +174,7 @@ Implemented a cloud-based data pipeline using Microsoft Azure and Azure Data Fac
 * Get Metadata Activity
 * Copy Data Activity
 
-### Key Learnings
+## Key Learnings
 
 * Cloud Resource Management
 * Blob Storage Configuration
@@ -178,16 +186,16 @@ Implemented a cloud-based data pipeline using Microsoft Azure and Azure Data Fac
 
 # 📌 Week 5 – Apache Spark Fundamentals and Data Processing using PySpark
 
-### Project Overview
+## Project Overview
 
 Performed data cleaning, transformation, filtering, aggregation, and schema management using Apache Spark DataFrames.
 
-### Dataset Used
+## Dataset Used
 
 * Dataset: `spark_assignment_dataset.csv`
 * Format: CSV
 
-### Operations Performed
+## Operations Performed
 
 * Duplicate Removal
 * Null Value Handling
@@ -198,7 +206,7 @@ Performed data cleaning, transformation, filtering, aggregation, and schema mana
 * Schema Modification
 * Revenue Calculation Pipeline
 
-### Spark Concepts Covered
+## Spark Concepts Covered
 
 * MapReduce vs Spark
 * In-Memory Computing
@@ -208,13 +216,62 @@ Performed data cleaning, transformation, filtering, aggregation, and schema mana
 * Schema Inference
 * Data Processing Pipelines
 
-### Key Learnings
+## Key Learnings
 
 * Distributed Data Processing
 * Data Cleaning at Scale
 * Spark Transformations and Actions
 * Aggregation Techniques
 * Performance Optimization Concepts
+
+---
+
+# 📌 Week 6 – Spark Architecture and Data Processing using PySpark
+
+## Project Overview
+
+Implemented Apache Spark Architecture concepts and performed efficient data processing using PySpark DataFrames. The assignment demonstrates Spark execution architecture, Lazy Evaluation, DataFrame transformations, schema handling, filtering, optimized file formats, and data pipeline creation.
+
+## Dataset Used
+
+* Dataset: `dataset.csv`
+* Format: CSV
+
+## Operations Performed
+
+* Reading CSV files with schema inference
+* Filtering and selecting required columns
+* Renaming columns
+* Casting data types
+* Adding calculated columns
+* Handling null values
+* Saving data as Parquet
+* Reading Parquet files
+* Exporting processed data as CSV
+* Building a Read → Transform → Filter → Write pipeline
+
+## Spark Concepts Covered
+
+* Spark Architecture
+* Driver, Cluster Manager and Executors
+* Client Mode vs Cluster Mode
+* Lazy Evaluation
+* Directed Acyclic Graph (DAG)
+* Transformations and Actions
+* Predicate Pushdown
+* Wide Transformations
+* Shuffle Operations
+* CSV vs Parquet
+* Spark Performance Optimization
+
+## Key Learnings
+
+* Understanding Apache Spark Architecture
+* Efficient Data Processing using PySpark
+* DataFrame Transformations and Filtering
+* Optimized File Formats (CSV vs Parquet)
+* Spark Performance Best Practices
+* Building End-to-End Spark Data Pipelines
 
 ---
 
@@ -235,6 +292,10 @@ Through these assignments, I gained practical experience in:
 ✅ Data Pipeline Development
 
 ✅ Apache Spark and Big Data Processing
+
+✅ Spark Architecture and Execution Model
+
+✅ Data Processing using PySpark DataFrames
 
 ✅ End-to-End Data Engineering Workflows
 
