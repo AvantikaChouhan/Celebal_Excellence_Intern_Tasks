@@ -1,4 +1,4 @@
-# 🚀 Celebal Excellence Intern Tasks
+# Celebal Excellence Intern Tasks
 
 ## 📖 Overview
 
