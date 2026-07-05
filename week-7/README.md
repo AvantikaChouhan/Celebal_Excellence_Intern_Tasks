@@ -86,16 +86,6 @@ week-7/
 
 ---
 
-## Repository Contents
-
-- Delta Lake Notebook
-- Master Dataset
-- Incremental Dataset
-- Screenshots
-- README
-
----
-
 ## How to Run
 
 1. Install the required dependencies.
@@ -122,8 +112,5 @@ The notebook demonstrates:
 
 ## Author
 
-**Name:** Avantika Chauhan
+**Name:** Avantika Chouhan
 
-**Organization:** Celebal Technologies Internship
-
-**Assignment:** Week 7 – Delta Lake Incremental Data Processing
