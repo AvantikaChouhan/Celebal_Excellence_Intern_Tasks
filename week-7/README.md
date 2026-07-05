@@ -126,5 +126,5 @@ The repository includes screenshots for the following stages:
 
 # 👩‍💻 Author
 
-**Name:** Avantika Chouhan
+ Avantika Chouhan
 
