@@ -2,27 +2,18 @@
 
 ## Overview
 
-This project demonstrates incremental data processing using **PySpark** and **Delta Lake** in **Google Colab**. The assignment includes loading a dataset into a Delta table, cleaning the data, simulating incremental data, performing a MERGE operation, validating the results, and exporting the datasets for GitHub submission.
+This project demonstrates incremental data processing using **PySpark** and **Delta Lake**. The workflow includes loading a dataset into a Delta table, performing data cleaning, simulating incremental data, applying the Delta Lake MERGE operation, validating the results, and displaying the final dataset.
 
 ---
 
 ## Objective
 
 - Load dataset into a Delta table.
-- Perform data cleaning (handle null values and remove duplicates).
-- Create an incremental dataset.
-- Apply the Delta Lake MERGE operation.
-- Validate the final dataset.
-- Display the final output and summary.
-
----
-
-## Environment
-
-- Google Colab
-- Python 3
-- PySpark
-- Delta Lake
+- Perform basic data cleaning (handle null values and remove duplicates).
+- Create a second dataset simulating new/incremental data.
+- Apply the MERGE operation to update existing records and insert new records.
+- Validate the results.
+- Display the final dataset and summary.
 
 ---
 
@@ -30,7 +21,7 @@ This project demonstrates incremental data processing using **PySpark** and **De
 
 **Dataset Used:** Sample Superstore Dataset
 
-Two datasets are included:
+The project contains:
 
 - **superstore_master.csv** – Cleaned master dataset
 - **superstore_incremental.csv** – Incremental dataset used for MERGE operation
@@ -39,7 +30,7 @@ Two datasets are included:
 
 ## Project Structure
 
-```
+```text
 week-7/
 │
 ├── data/
@@ -63,26 +54,26 @@ week-7/
 ### 2. Data Cleaning
 - Removed null values.
 - Removed duplicate records.
-- Renamed column names for Delta Lake compatibility.
+- Renamed column names where required for Delta Lake compatibility.
 
 ### 3. Delta Table Creation
 - Stored the cleaned dataset in Delta format.
 
 ### 4. Incremental Data Creation
-- Created a second dataset containing updated and new records.
+- Created a second dataset containing updated records and new records.
 
 ### 5. MERGE Operation
-- Updated existing records.
+- Updated matching records.
 - Inserted new records.
 
 ### 6. Validation
-- Checked total row count.
-- Verified duplicate records.
-- Checked null values.
+- Verified total row count.
+- Checked duplicate records.
+- Validated null values.
 
 ### 7. Final Output
 - Displayed the final Delta table.
-- Exported master and incremental datasets as CSV files.
+- Exported master and incremental datasets.
 
 ---
 
@@ -91,7 +82,6 @@ week-7/
 - Python
 - PySpark
 - Delta Lake
-- Google Colab
 - GitHub
 
 ---
@@ -99,8 +89,8 @@ week-7/
 ## Repository Contents
 
 - Delta Lake Notebook
-- Superstore Master Dataset
-- Superstore Incremental Dataset
+- Master Dataset
+- Incremental Dataset
 - Screenshots
 - README
 
@@ -108,18 +98,18 @@ week-7/
 
 ## How to Run
 
-1. Open the notebook in Google Colab.
-2. Install the required libraries.
-3. Upload the Superstore dataset.
-4. Run all notebook cells sequentially.
-5. Download the generated CSV files.
-6. Verify the outputs and screenshots.
+1. Install the required dependencies.
+2. Open the notebook.
+3. Upload the dataset.
+4. Execute all notebook cells sequentially.
+5. Verify the outputs.
+6. Export the generated datasets if required.
 
 ---
 
 ## Output
 
-The notebook successfully demonstrates:
+The notebook demonstrates:
 
 - Delta Table Creation
 - Data Cleaning
@@ -132,5 +122,8 @@ The notebook successfully demonstrates:
 
 ## Author
 
-**Name:** Avantika Chouhan
+**Name:** Avantika Chauhan
 
+**Organization:** Celebal Technologies Internship
+
+**Assignment:** Week 7 – Delta Lake Incremental Data Processing
