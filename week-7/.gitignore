@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Delta Lake
+_delta_log/
+
+# Logs
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Temporary Files
+*.tmp
+*.temp
