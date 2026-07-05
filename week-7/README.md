@@ -27,8 +27,7 @@ The project contains:
 - 📄 **superstore_incremental.csv** – Incremental dataset used for MERGE operation
 
 ---
-
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 week-7/
@@ -40,8 +39,9 @@ week-7/
 ├── results_screenshots/
 │
 ├── delta_scd_assignment.ipynb
-│
-└── README.md
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
