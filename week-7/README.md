@@ -1,34 +1,34 @@
 # Delta Lake Incremental Data Processing Assignment
 
-## Overview
+## 📌 Overview
 
-This project demonstrates incremental data processing using **PySpark** and **Delta Lake**. The workflow includes loading a dataset into a Delta table, performing data cleaning, simulating incremental data, applying the Delta Lake MERGE operation, validating the results, and displaying the final dataset.
-
----
-
-## Objective
-
-- Load dataset into a Delta table.
-- Perform basic data cleaning (handle null values and remove duplicates).
-- Create a second dataset simulating new/incremental data.
-- Apply the MERGE operation to update existing records and insert new records.
-- Validate the results.
-- Display the final dataset and summary.
+This project demonstrates **Incremental Data Processing** using **PySpark** and **Delta Lake**. The workflow includes loading a dataset into a Delta table, performing data cleaning, simulating incremental data, applying the **MERGE** operation, validating the results, and displaying the final dataset.
 
 ---
 
-## Dataset
+# 🎯 Objective
 
-**Dataset Used:** Sample Superstore Dataset
+- 📥 Load dataset into a Delta table.
+- 🧹 Perform basic data cleaning (handle null values and remove duplicates).
+- ➕ Create a second dataset simulating new/incremental data.
+- 🔄 Apply the **MERGE** operation to update existing records and insert new records.
+- ✅ Validate the results.
+- 📊 Display the final dataset and summary.
+
+---
+
+# 📂 Dataset
+
+**Dataset Used:** **Sample Superstore Dataset**
 
 The project contains:
 
-- **superstore_master.csv** – Cleaned master dataset
-- **superstore_incremental.csv** – Incremental dataset used for MERGE operation
+- 📄 **superstore_master.csv** – Cleaned master dataset
+- 📄 **superstore_incremental.csv** – Incremental dataset used for MERGE operation
 
 ---
 
-## Project Structure
+# 📁 Project Structure
 
 ```text
 week-7/
@@ -46,47 +46,49 @@ week-7/
 
 ---
 
-## Steps Performed
+# ⚙️ Steps Performed
 
-### 1. Data Loading
+### 📥 1. Data Loading
 - Loaded the Superstore dataset into a PySpark DataFrame.
 
-### 2. Data Cleaning
+### 🧹 2. Data Cleaning
 - Removed null values.
 - Removed duplicate records.
 - Renamed column names where required for Delta Lake compatibility.
 
-### 3. Delta Table Creation
+### 🗄️ 3. Delta Table Creation
 - Stored the cleaned dataset in Delta format.
 
-### 4. Incremental Data Creation
-- Created a second dataset containing updated records and new records.
+### ➕ 4. Incremental Data Creation
+- Created a second dataset containing:
+  - Updated records
+  - New records
 
-### 5. MERGE Operation
+### 🔄 5. MERGE Operation
 - Updated matching records.
 - Inserted new records.
 
-### 6. Validation
+### ✔️ 6. Validation
 - Verified total row count.
 - Checked duplicate records.
 - Validated null values.
 
-### 7. Final Output
+### 📈 7. Final Output
 - Displayed the final Delta table.
 - Exported master and incremental datasets.
 
 ---
 
-## Technologies Used
+# 🛠️ Technologies Used
 
-- Python
-- PySpark
-- Delta Lake
-- GitHub
+- 🐍 Python
+- ⚡ PySpark
+- 🗃️ Delta Lake
+- 🌐 GitHub
 
 ---
 
-## How to Run
+# ▶️ How to Run
 
 1. Install the required dependencies.
 2. Open the notebook.
@@ -97,20 +99,32 @@ week-7/
 
 ---
 
-## Output
+# 📸 Output
 
-The notebook demonstrates:
+The notebook successfully demonstrates:
 
-- Delta Table Creation
-- Data Cleaning
-- Incremental Data Processing
-- MERGE (Update + Insert)
-- Data Validation
-- Final Dataset
+- ✅ Delta Table Creation
+- ✅ Data Cleaning
+- ✅ Incremental Data Processing
+- ✅ MERGE (Update + Insert)
+- ✅ Data Validation
+- ✅ Final Dataset
 
 ---
 
-## Author
+# 📷 Screenshots
+
+The repository includes screenshots for the following stages:
+
+- 📥 Data Loading
+- 🧹 Data Cleaning
+- 🔄 MERGE Operation
+- ✔️ Validation
+- 📊 Final Output
+
+---
+
+# 👩‍💻 Author
 
 **Name:** Avantika Chouhan
 
