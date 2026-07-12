@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,cost_price
+1,Biography,Books,Biography,3284.2
+2,Fan,Home,Fan,1651.64
+3,  SCIENCE BOOK  ,Books,SCIENCE BOOK,3192.69
+4,Table,Home,Table,582.37
+5,MOUSE,Electronics,MOUSE,241.84
+6,Chair,Home,Chair,813.29
+7,  Science Book  ,Books,Science Book,957.84
+8,Science Book,Books,Science Book,2957.47
+9,Shoes,Clothing,Shoes,3367.52
+10,  Biography  ,Books,Biography,2264.48
+11,Curtains,Home,Curtains,3482.54
+12,BIOGRAPHY,Books,BIOGRAPHY,2467.72
+13,Shoes,Clothing,Shoes,4964.19
+14,Chair,Home,Chair,1444.95
+15,Keyboard,Electronics,Keyboard,4524.38
+16,T-Shirt,Clothing,T-Shirt,1031.65
+17,Fan,Home,Fan,3436.19
+18,KURTA,Clothing,KURTA,293.17
+19,Novel,Books,Novel,541.65
+20,  Sofa  ,Home,Sofa,747.58
+21,Curtains,Home,Curtains,906.27
+22,Biography,Books,Biography,664.33
+23,Mobile,Electronics,Mobile,3413.99
+24,Science Book,Books,Science Book,168.2
+25,Mouse,Electronics,Mouse,1384.59
+26,  Comics  ,Books,Comics,1245.73
+27,Keyboard,Electronics,Keyboard,4584.75
+28,KURTA,Clothing,KURTA,4556.0
+29,  Fan  ,Home,Fan,4736.68
+30,LAMP,Home,LAMP,2733.98
+31,Cookbook,Books,Cookbook,3512.77
+32,  Science Book  ,Books,Science Book,2132.93
+33,Speaker,Electronics,Speaker,4762.46
+34,Smart Watch,Electronics,Smart Watch,4757.72
+35,Chair,Home,Chair,4518.31
+36,  Chair  ,Home,Chair,698.58
+37,Novel,Books,Novel,3026.02
+38,Laptop,Electronics,Laptop,717.03
+39,Shirt,Clothing,Shirt,2973.28
+40,Jacket,Clothing,Jacket,3020.31
+41,Table,Home,Table,4012.72
+42,  Smart Watch  ,Electronics,Smart Watch,1855.39
+43,  T-Shirt  ,Clothing,T-Shirt,356.76
+44,  SCIENCE BOOK  ,Books,SCIENCE BOOK,2296.55
+45,Curtains,Home,Curtains,1185.59
+46,Smart Watch,Electronics,Smart Watch,2655.11
+47,  Comics  ,Books,Comics,2447.01
+48,Cookbook,Books,Cookbook,4557.53
+49,  Laptop  ,Electronics,Laptop,718.34
+50,Lamp,Home,Lamp,2323.21
+51,  Novel  ,Books,Novel,3308.09
+52,Shoes,Clothing,Shoes,1760.76
+53,  Cookbook  ,Books,Cookbook,2191.14
+54,Sofa,Home,Sofa,2423.91
+55,SPEAKER,Electronics,SPEAKER,3748.49
+56,Table,Home,Table,2851.77
+57,FAN,Home,FAN,3360.17
+58,COMICS,Books,COMICS,1631.0
+59,  Keyboard  ,Electronics,Keyboard,2462.73
+60,Headphones,Electronics,Headphones,3836.77
+61,Shoes,Clothing,Shoes,4110.29
+62,Keyboard,Electronics,Keyboard,1410.49
+63,Jacket,Clothing,Jacket,1765.14
+64,Mobile,Electronics,Mobile,2063.84
+65,  Kurta  ,Clothing,Kurta,3755.95
+66,Shoes,Clothing,Shoes,1913.26
+67,Curtains,Home,Curtains,862.34
+68,SMART WATCH,Electronics,SMART WATCH,2177.67
+69,Cookbook,Books,Cookbook,657.71
+70,Novel,Books,Novel,2484.5
+71,Chair,Home,Chair,368.43
+72,Jacket,Clothing,Jacket,3844.39
+73,SOFA,Home,SOFA,2210.21
+74,Shoes,Clothing,Shoes,2837.75
+75,Chair,Home,Chair,2237.48
+76,Novel,Books,Novel,2909.66
+77,  BIOGRAPHY  ,Books,BIOGRAPHY,1691.36
+78,  Comics  ,Books,Comics,4237.97
+79,Shoes,Clothing,Shoes,2039.26
+80,Fan,Home,Fan,923.85
+81,Keyboard,Electronics,Keyboard,1811.94
+82,JEANS,Clothing,JEANS,950.15
+83,KURTA,Clothing,KURTA,3176.95
+84,Science Book,Books,Science Book,4628.36
+85,Fan,Home,Fan,2397.71
+86,Sofa,Home,Sofa,463.53
+87,COOKBOOK,Books,COOKBOOK,1506.68
+88,Keyboard,Electronics,Keyboard,2943.61
+89,Mouse,Electronics,Mouse,1022.37
+90,  SCIENCE BOOK  ,Books,SCIENCE BOOK,607.16
+91,FAN,Home,FAN,291.8
+92,Cookbook,Books,Cookbook,1883.1
+93,Lamp,Home,Lamp,3029.64
+94,Chair,Home,Chair,1994.16
+95,Fan,Home,Fan,3053.23
+96,JACKET,Clothing,JACKET,4592.06
+97,Fan,Home,Fan,3015.7
+98,Headphones,Electronics,Headphones,1709.54
+99,Kurta,Clothing,Kurta,4986.1
+100,Smart Watch,Electronics,Smart Watch,189.33
+101,Table,Home,Table,3854.17
+102,  Jeans  ,Clothing,Jeans,1549.38
+103,Keyboard,Electronics,Keyboard,4430.04
+104,Smart Watch,Electronics,Smart Watch,742.14
+105,DICTIONARY,Books,DICTIONARY,3878.38
+106,Kurta,Clothing,Kurta,3414.18
+107,Shoes,Clothing,Shoes,3940.62
+108,T-Shirt,Clothing,T-Shirt,3943.41
+109,Jacket,Clothing,Jacket,2258.93
+110,Lamp,Home,Lamp,894.09
+111,T-SHIRT,Clothing,T-SHIRT,3241.78
+112,Curtains,Home,Curtains,2627.96
+113,  HEADPHONES  ,Electronics,HEADPHONES,2301.66
+114,SHOES,Clothing,SHOES,4101.85
+115,Chair,Home,Chair,1932.41
+116,  Novel  ,Books,Novel,4661.05
+117,TABLE,Home,TABLE,4165.83
+118,Kurta,Clothing,Kurta,4538.7
+119,  Headphones  ,Electronics,Headphones,4707.11
+120,Novel,Books,Novel,697.06
+121,Shoes,Clothing,Shoes,407.76
+122,Science Book,Books,Science Book,2917.73
+123,Jacket,Clothing,Jacket,1278.76
+124,  Dictionary  ,Books,Dictionary,4875.81
+125,Keyboard,Electronics,Keyboard,2587.35
+126,  Mouse  ,Electronics,Mouse,1995.72
+127,Sofa,Home,Sofa,431.04
+128,  Kurta  ,Clothing,Kurta,2951.33
+129,TABLE,Home,TABLE,4086.19
+130,Kurta,Clothing,Kurta,3195.51
+131,Shirt,Clothing,Shirt,281.22
+132,Shirt,Clothing,Shirt,1646.42
+133,Curtains,Home,Curtains,2419.66
+134,Speaker,Electronics,Speaker,4324.48
+135,Speaker,Electronics,Speaker,4016.78
+136,Cookbook,Books,Cookbook,1994.56
+137,Shoes,Clothing,Shoes,4006.73
+138,  Chair  ,Home,Chair,3052.02
+139,  T-Shirt  ,Clothing,T-Shirt,1706.81
+140,Sofa,Home,Sofa,916.56
+141,Biography,Books,Biography,4566.88
+142,Biography,Books,Biography,381.05
+143,Biography,Books,Biography,883.93
+144,Mobile,Electronics,Mobile,2247.05
+145,Shirt,Clothing,Shirt,1874.54
+146,KEYBOARD,Electronics,KEYBOARD,1917.73
+147,Novel,Books,Novel,2050.37
+148,  Table  ,Home,Table,1011.64
+149,SCIENCE BOOK,Books,SCIENCE BOOK,3549.79
+150,T-Shirt,Clothing,T-Shirt,2506.88
+151,Mobile,Electronics,Mobile,4503.53
+152,Novel,Books,Novel,4934.22
+153,FAN,Home,FAN,4467.53
+154,Kurta,Clothing,Kurta,953.05
+155,Curtains,Home,Curtains,3981.12
+156,SHOES,Clothing,SHOES,1907.66
+157,  T-Shirt  ,Clothing,T-Shirt,2050.98
+158,Science Book,Books,Science Book,2917.01
+159,Jacket,Clothing,Jacket,3432.53
+160,Table,Home,Table,3234.99
+161,Jeans,Clothing,Jeans,371.52
+162,  KEYBOARD  ,Electronics,KEYBOARD,1681.04
+163,Jacket,Clothing,Jacket,1491.84
+164,HEADPHONES,Electronics,HEADPHONES,1444.81
+165,Curtains,Home,Curtains,926.32
+166,Jeans,Clothing,Jeans,3065.18
+167,  Speaker  ,Electronics,Speaker,4747.88
+168,Fan,Home,Fan,3128.73
+169,Mouse,Electronics,Mouse,3245.35
+170,Lamp,Home,Lamp,2089.85
+171,  Novel  ,Books,Novel,2136.55
+172,  Dictionary  ,Books,Dictionary,4321.28
+173,Fan,Home,Fan,2053.71
+174,Curtains,Home,Curtains,2385.72
+175,  Lamp  ,Home,Lamp,1522.04
+176,Science Book,Books,Science Book,4521.32
+177,  Curtains  ,Home,Curtains,880.78
+178,Cookbook,Books,Cookbook,541.24
+179,Science Book,Books,Science Book,2958.39
+180,Laptop,Electronics,Laptop,4229.96
+181,Biography,Books,Biography,2211.55
+182,Fan,Home,Fan,321.69
+183,Keyboard,Electronics,Keyboard,1514.15
+184,Science Book,Books,Science Book,4144.03
+185,Mobile,Electronics,Mobile,3995.0
+186,Curtains,Home,Curtains,1075.38
+187,  SCIENCE BOOK  ,Books,SCIENCE BOOK,3596.6
+188,Science Book,Books,Science Book,2625.98
+189,Curtains,Home,Curtains,3120.85
+190,Curtains,Home,Curtains,2708.47
+191,Lamp,Home,Lamp,3401.65
+192,Science Book,Books,Science Book,4373.29
+193,Keyboard,Electronics,Keyboard,3936.23
+194,KURTA,Clothing,KURTA,2668.74
+195,Dictionary,Books,Dictionary,2905.59
+196,MOBILE,Electronics,MOBILE,842.01
+197,Shoes,Clothing,Shoes,2410.87
+198,SMART WATCH,Electronics,SMART WATCH,1692.74
+199,Science Book,Books,Science Book,2352.35
+200,Curtains,Home,Curtains,3632.53
+201,Curtains,Home,Curtains,1467.13
+202,Table,Home,Table,3878.75
+203,Kurta,Clothing,Kurta,1809.14
+204,SOFA,Home,SOFA,1960.5
+205,Biography,Books,Biography,1523.22
+206,FAN,Home,FAN,3314.26
+207,Dictionary,Books,Dictionary,4671.82
+208,TABLE,Home,TABLE,1272.48
+209,Smart Watch,Electronics,Smart Watch,1240.9
+210,Mouse,Electronics,Mouse,3437.84
+211,Shirt,Clothing,Shirt,873.91
+212,Cookbook,Books,Cookbook,1507.5
+213,FAN,Home,FAN,3296.26
+214,T-Shirt,Clothing,T-Shirt,282.76
+215,  Shoes  ,Clothing,Shoes,4606.21
+216,COOKBOOK,Books,COOKBOOK,4374.22
+217,CHAIR,Home,CHAIR,625.77
+218,Sofa,Home,Sofa,2669.16
+219,  T-Shirt  ,Clothing,T-Shirt,651.97
+220,Kurta,Clothing,Kurta,1012.38
+221,Sofa,Home,Sofa,959.93
+222,  Cookbook  ,Books,Cookbook,3379.35
+223,Jeans,Clothing,Jeans,133.47
+224,Dictionary,Books,Dictionary,1715.16
+225,Headphones,Electronics,Headphones,404.41
+226,Mouse,Electronics,Mouse,2562.35
+227,FAN,Home,FAN,1545.68
+228,Jeans,Clothing,Jeans,2329.4
+229,Lamp,Home,Lamp,3811.02
+230,Jeans,Clothing,Jeans,3958.12
+231,  Science Book  ,Books,Science Book,2864.43
+232,Speaker,Electronics,Speaker,2906.24
+233,Jeans,Clothing,Jeans,669.58
+234,  Kurta  ,Clothing,Kurta,2600.84
+235,MOUSE,Electronics,MOUSE,2863.16
+236,Comics,Books,Comics,2040.15
+237,  Smart Watch  ,Electronics,Smart Watch,2176.12
+238,Keyboard,Electronics,Keyboard,438.19
+239,  Novel  ,Books,Novel,763.6
+240,Biography,Books,Biography,4361.14
+241,COOKBOOK,Books,COOKBOOK,4385.31
+242,  Kurta  ,Clothing,Kurta,4964.95
+243,SCIENCE BOOK,Books,SCIENCE BOOK,4190.63
+244,Headphones,Electronics,Headphones,2178.23
+245,Dictionary,Books,Dictionary,1450.68
+246,Laptop,Electronics,Laptop,3853.66
+247,  Mobile  ,Electronics,Mobile,264.52
+248,Mobile,Electronics,Mobile,1248.26
+249,SHIRT,Clothing,SHIRT,1247.39
+250,Curtains,Home,Curtains,1671.26
+251,Table,Home,Table,2126.45
+252,Chair,Home,Chair,3702.54
+253,Kurta,Clothing,Kurta,329.73
+254,Fan,Home,Fan,1661.8
+255,COOKBOOK,Books,COOKBOOK,3796.64
+256,Dictionary,Books,Dictionary,3567.13
+257,Novel,Books,Novel,2830.71
+258,Shoes,Clothing,Shoes,3268.86
+259,BIOGRAPHY,Books,BIOGRAPHY,1033.36
+260,Lamp,Home,Lamp,4380.74
+261,T-Shirt,Clothing,T-Shirt,2449.03
+262,  Sofa  ,Home,Sofa,4692.08
+263,Smart Watch,Electronics,Smart Watch,1288.71
+264,Shoes,Clothing,Shoes,3900.02
+265,Cookbook,Books,Cookbook,1381.65
+266,COOKBOOK,Books,COOKBOOK,2400.5
+267,Table,Home,Table,2856.37
+268,KURTA,Clothing,KURTA,4680.32
+269,BIOGRAPHY,Books,BIOGRAPHY,1961.21
+270,Shoes,Clothing,Shoes,1754.06
+271,Comics,Books,Comics,924.34
+272,TABLE,Home,TABLE,1001.83
+273,KEYBOARD,Electronics,KEYBOARD,4731.42
+274,  SPEAKER  ,Electronics,SPEAKER,3190.44
+275,SMART WATCH,Electronics,SMART WATCH,2334.45
+276,Keyboard,Electronics,Keyboard,4572.48
+277,NOVEL,Books,NOVEL,158.07
+278,  Curtains  ,Home,Curtains,4084.47
+279,  DICTIONARY  ,Books,DICTIONARY,829.6
+280,T-Shirt,Clothing,T-Shirt,1409.89
+281,Novel,Books,Novel,2868.51
+282,Jacket,Clothing,Jacket,3303.31
+283,Laptop,Electronics,Laptop,2432.42
+284,SMART WATCH,Electronics,SMART WATCH,2226.16
+285,Curtains,Home,Curtains,4484.48
+286,Mobile,Electronics,Mobile,4449.02
+287,  BIOGRAPHY  ,Books,BIOGRAPHY,4635.37
+288,Mobile,Electronics,Mobile,4811.2
+289,Kurta,Clothing,Kurta,1566.46
+290,T-Shirt,Clothing,T-Shirt,4492.98
+291,  Lamp  ,Home,Lamp,4943.54
+292,Keyboard,Electronics,Keyboard,578.66
+293,Shirt,Clothing,Shirt,4778.81
+294,BIOGRAPHY,Books,BIOGRAPHY,4963.67
+295,Dictionary,Books,Dictionary,2216.05
+296,Novel,Books,Novel,1307.6
+297,Laptop,Electronics,Laptop,3941.06
+298,Kurta,Clothing,Kurta,548.45
+299,Lamp,Home,Lamp,749.28
+300,Shoes,Clothing,Shoes,2099.42
+301,  Laptop  ,Electronics,Laptop,3030.41
+302,LAMP,Home,LAMP,3917.93
+303,T-Shirt,Clothing,T-Shirt,930.56
+304,  Sofa  ,Home,Sofa,919.32
+305,Lamp,Home,Lamp,1869.51
+306,Kurta,Clothing,Kurta,1058.19
+307,Mobile,Electronics,Mobile,1727.86
+308,Biography,Books,Biography,4135.32
+309,Jacket,Clothing,Jacket,1084.17
+310,Table,Home,Table,1528.1
+311,Science Book,Books,Science Book,1473.47
+312,BIOGRAPHY,Books,BIOGRAPHY,3001.91
+313,  Kurta  ,Clothing,Kurta,3663.35
+314,Shoes,Clothing,Shoes,438.88
+315,Comics,Books,Comics,1285.9
+316,Kurta,Clothing,Kurta,2300.43
+317,Science Book,Books,Science Book,4609.92
+318,SCIENCE BOOK,Books,SCIENCE BOOK,3538.01
+319,Laptop,Electronics,Laptop,1839.54
+320,Keyboard,Electronics,Keyboard,2058.13
+321,  LAMP  ,Home,LAMP,1187.81
+322,Shoes,Clothing,Shoes,3429.82
+323,Jacket,Clothing,Jacket,1547.62
+324,Laptop,Electronics,Laptop,1806.81
+325,Lamp,Home,Lamp,1806.67
+326,Mouse,Electronics,Mouse,429.15
+327,  Speaker  ,Electronics,Speaker,1781.08
+328,Smart Watch,Electronics,Smart Watch,3728.4
+329,T-SHIRT,Clothing,T-SHIRT,4796.47
+330,  Shoes  ,Clothing,Shoes,3320.81
+331,Novel,Books,Novel,2302.92
+332,COOKBOOK,Books,COOKBOOK,1463.89
+333,KEYBOARD,Electronics,KEYBOARD,1016.1
+334,Table,Home,Table,4326.92
+335,Curtains,Home,Curtains,659.74
+336,Lamp,Home,Lamp,3559.34
+337,Curtains,Home,Curtains,1634.61
+338,JACKET,Clothing,JACKET,792.66
+339,Cookbook,Books,Cookbook,2172.89
+340,Comics,Books,Comics,4660.41
+341,T-SHIRT,Clothing,T-SHIRT,1016.78
+342,SCIENCE BOOK,Books,SCIENCE BOOK,146.96
+343,Jeans,Clothing,Jeans,2576.65
+344,Cookbook,Books,Cookbook,4215.47
+345,  DICTIONARY  ,Books,DICTIONARY,3829.18
+346,Chair,Home,Chair,924.22
+347,Science Book,Books,Science Book,2793.66
+348,KEYBOARD,Electronics,KEYBOARD,4134.09
+349,  Curtains  ,Home,Curtains,3623.0
+350,SHOES,Clothing,SHOES,3781.59
+351,Chair,Home,Chair,4101.97
+352,Novel,Books,Novel,4072.44
+353,Fan,Home,Fan,3119.14
+354,Jeans,Clothing,Jeans,2708.18
+355,Jacket,Clothing,Jacket,2906.4
+356,Mobile,Electronics,Mobile,4601.97
+357,FAN,Home,FAN,1323.42
+358,Table,Home,Table,2498.35
+359,Fan,Home,Fan,3204.78
+360,Mouse,Electronics,Mouse,4688.05
+361,Lamp,Home,Lamp,112.12
+362,Smart Watch,Electronics,Smart Watch,3516.72
+363,Speaker,Electronics,Speaker,2205.25
+364,Shoes,Clothing,Shoes,1755.0
+365,T-Shirt,Clothing,T-Shirt,4481.36
+366,LAPTOP,Electronics,LAPTOP,2351.95
+367,SPEAKER,Electronics,SPEAKER,4960.01
+368,Dictionary,Books,Dictionary,4422.52
+369,Table,Home,Table,557.37
+370,SOFA,Home,SOFA,3279.66
+371,Mouse,Electronics,Mouse,3800.64
+372,  COMICS  ,Books,COMICS,1145.76
+373,Mobile,Electronics,Mobile,2280.83
+374,  Smart Watch  ,Electronics,Smart Watch,4315.67
+375,SHOES,Clothing,SHOES,3680.74
+376,Laptop,Electronics,Laptop,771.93
+377,  Kurta  ,Clothing,Kurta,2699.49
+378,Keyboard,Electronics,Keyboard,3639.92
+379,Shoes,Clothing,Shoes,1164.5
+380,Mobile,Electronics,Mobile,1981.76
+381,Biography,Books,Biography,3258.64
+382,T-Shirt,Clothing,T-Shirt,1496.11
+383,Speaker,Electronics,Speaker,1106.68
+384,Kurta,Clothing,Kurta,3940.63
+385,Shoes,Clothing,Shoes,3226.6
+386,  Keyboard  ,Electronics,Keyboard,1869.38
+387,Table,Home,Table,2162.23
+388,Shoes,Clothing,Shoes,181.78
+389,  Laptop  ,Electronics,Laptop,396.3
+390,Science Book,Books,Science Book,3858.84
+391,Comics,Books,Comics,2734.51
+392,  JACKET  ,Clothing,JACKET,4612.53
+393,T-Shirt,Clothing,T-Shirt,3839.8
+394,Headphones,Electronics,Headphones,4247.69
+395,MOBILE,Electronics,MOBILE,2321.52
+396,Headphones,Electronics,Headphones,960.66
+397,  SMART WATCH  ,Electronics,SMART WATCH,2532.42
+398,Curtains,Home,Curtains,1370.31
+399,Table,Home,Table,3691.39
+400,Speaker,Electronics,Speaker,2203.69
+401,Headphones,Electronics,Headphones,477.64
+402,Science Book,Books,Science Book,2877.74
+403,  Table  ,Home,Table,2912.17
+404,  Mobile  ,Electronics,Mobile,4307.58
+405,MOBILE,Electronics,MOBILE,4609.11
+406,Shirt,Clothing,Shirt,3729.26
+407,Dictionary,Books,Dictionary,3629.41
+408,  Chair  ,Home,Chair,3399.3
+409,Mobile,Electronics,Mobile,325.05
+410,Novel,Books,Novel,3890.28
+411,SOFA,Home,SOFA,1907.7
+412,Curtains,Home,Curtains,1288.66
+413,Curtains,Home,Curtains,3901.84
+414,JEANS,Clothing,JEANS,1241.69
+415,Fan,Home,Fan,4759.85
+416,Speaker,Electronics,Speaker,3663.35
+417,Mobile,Electronics,Mobile,2510.94
+418,  Mobile  ,Electronics,Mobile,4614.24
+419,Comics,Books,Comics,3764.71
+420,KEYBOARD,Electronics,KEYBOARD,466.67
+421,  Mouse  ,Electronics,Mouse,1529.21
+422,Lamp,Home,Lamp,1658.48
+423,TABLE,Home,TABLE,3921.69
+424,MOBILE,Electronics,MOBILE,1638.76
+425,Keyboard,Electronics,Keyboard,2314.39
+426,  Biography  ,Books,Biography,4057.22
+427,  Fan  ,Home,Fan,4196.03
+428,TABLE,Home,TABLE,1843.14
+429,Smart Watch,Electronics,Smart Watch,951.95
+430,Cookbook,Books,Cookbook,564.15
+431,  Speaker  ,Electronics,Speaker,402.18
+432,JEANS,Clothing,JEANS,3462.8
+433,Keyboard,Electronics,Keyboard,467.44
+434,Mobile,Electronics,Mobile,731.08
+435,CHAIR,Home,CHAIR,923.15
+436,  Comics  ,Books,Comics,3447.74
+437,  Jacket  ,Clothing,Jacket,1471.29
+438,Shirt,Clothing,Shirt,3271.66
+439,Cookbook,Books,Cookbook,529.84
+440,Dictionary,Books,Dictionary,4006.27
+441,Kurta,Clothing,Kurta,195.7
+442,Comics,Books,Comics,2474.93
+443,  Lamp  ,Home,Lamp,3025.87
+444,  Speaker  ,Electronics,Speaker,4958.5
+445,Curtains,Home,Curtains,590.66
+446,Jacket,Clothing,Jacket,3711.59
+447,T-Shirt,Clothing,T-Shirt,1838.54
+448,Jeans,Clothing,Jeans,3716.71
+449,CURTAINS,Home,CURTAINS,4743.04
+450,T-Shirt,Clothing,T-Shirt,4070.97
+451,Science Book,Books,Science Book,542.26
+452,T-Shirt,Clothing,T-Shirt,103.35
+453,  Jeans  ,Clothing,Jeans,4031.88
+454,CHAIR,Home,CHAIR,4594.4
+455,Speaker,Electronics,Speaker,455.4
+456,SCIENCE BOOK,Books,SCIENCE BOOK,768.61
+457,Kurta,Clothing,Kurta,4807.24
+458,Table,Home,Table,4459.04
+459,Table,Home,Table,1954.08
+460,  TABLE  ,Home,TABLE,3539.84
+461,SCIENCE BOOK,Books,SCIENCE BOOK,4613.09
+462,Kurta,Clothing,Kurta,789.15
+463,Mobile,Electronics,Mobile,3217.32
+464,Speaker,Electronics,Speaker,4444.6
+465,Novel,Books,Novel,432.19
+466,  Chair  ,Home,Chair,2247.28
+467,Dictionary,Books,Dictionary,1955.69
+468,Novel,Books,Novel,2932.47
+469,Jeans,Clothing,Jeans,263.72
+470,  Headphones  ,Electronics,Headphones,1774.86
+471,Dictionary,Books,Dictionary,4500.81
+472,Headphones,Electronics,Headphones,2465.41
+473,  Mouse  ,Electronics,Mouse,4459.79
+474,SHIRT,Clothing,SHIRT,1030.92
+475,Fan,Home,Fan,343.21
+476,  DICTIONARY  ,Books,DICTIONARY,529.38
+477,DICTIONARY,Books,DICTIONARY,3227.13
+478,Mouse,Electronics,Mouse,2047.59
+479,Comics,Books,Comics,1998.88
+480,Lamp,Home,Lamp,1390.15
+481,Biography,Books,Biography,402.03
+482,Laptop,Electronics,Laptop,2128.53
+483,T-SHIRT,Clothing,T-SHIRT,2660.65
+484,Science Book,Books,Science Book,486.88
+485,Keyboard,Electronics,Keyboard,2900.28
+486,Shirt,Clothing,Shirt,4750.4
+487,  Jeans  ,Clothing,Jeans,2174.54
+488,Dictionary,Books,Dictionary,4187.13
+489,Sofa,Home,Sofa,428.36
+490,Science Book,Books,Science Book,1453.38
+491,Novel,Books,Novel,2660.55
+492,  Novel  ,Books,Novel,2980.88
+493,  Laptop  ,Electronics,Laptop,1501.85
+494,Lamp,Home,Lamp,2902.91
+495,NOVEL,Books,NOVEL,3129.4
+496,Novel,Books,Novel,3483.52
+497,Smart Watch,Electronics,Smart Watch,1924.96
+498,Sofa,Home,Sofa,4305.35
+499,Speaker,Electronics,Speaker,3744.25
+500,Sofa,Home,Sofa,537.51
