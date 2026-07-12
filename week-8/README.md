@@ -1,27 +1,114 @@
-# E-Commerce Order Analytics System
+# Intern Mini Project - E-Commerce Order Analytics System
 
 ## Project Overview
 
-This project is an end-to-end E-Commerce Analytics System developed using Python and SQLite.
-
-The system generates realistic e-commerce data, cleans inconsistent records, loads the cleaned data into a SQLite database, performs business analysis using SQL queries, and generates summary reports through a command-line interface.
+This project was developed as part of an internship assignment. It demonstrates an end-to-end E-Commerce Analytics System using Python and SQLite. The project generates realistic e-commerce data, cleans and validates it, loads it into a SQLite database, performs business analysis using SQL, and generates analytical reports through a command-line interface.
 
 ---
 
-## Features
+# System Architecture
 
-- Generate realistic fake e-commerce data
-- Clean and validate raw CSV files
-- Validate customer emails
+The project follows a simple ETL (Extract, Transform, Load) architecture.
+
+```
+                Fake Data Generation
+                        │
+                        ▼
+              Raw CSV Files (data/raw)
+                        │
+                        ▼
+            Data Cleaning & Validation
+                        │
+                        ▼
+          Clean CSV Files (data/cleaned)
+                        │
+                        ▼
+          SQLite Database (ecommerce.db)
+                        │
+        ┌───────────────┼────────────────┐
+        ▼               ▼                ▼
+   SQL Queries      CLI Reports     Edge Case Tests
+```
+
+### Components
+
+### 1. Data Generation
+
+- Generates Customers
+- Generates Products
+- Generates Orders
+- Generates Order Items
+- Stores data as CSV files
+
+---
+
+### 2. Data Cleaning
+
+Performs:
+
+- Remove duplicate records
+- Trim extra spaces
+- Standardize text format
+- Validate email addresses
 - Check referential integrity
-- Load cleaned data into SQLite
-- Execute 16 business SQL queries
-- Generate summary reports using Python
-- Perform edge case testing
+- Handle missing values
 
 ---
 
-## Technologies Used
+### 3. Database
+
+SQLite database stores the cleaned data.
+
+Tables:
+
+- customers
+- products
+- orders
+- order_items
+
+---
+
+### 4. SQL Analytics
+
+Implements 16 SQL queries including:
+
+- Revenue Analysis
+- Customer Analysis
+- Order Analysis
+- Return Analysis
+- Window Functions
+- CTEs
+- Cohort Analysis
+- Customer Segmentation
+- Product Ranking
+- Self Join Analysis
+
+---
+
+### 5. Reporting Module
+
+The command-line interface generates reports including:
+
+- Total Orders
+- Total Revenue
+- Unique Customers
+- Top 3 Products
+- Revenue Comparison
+
+---
+
+### 6. Edge Case Testing
+
+The system validates:
+
+- Invalid Order IDs
+- Discount greater than 100%
+- Zero Quantity
+- Future Order Dates
+
+---
+
+# Technologies Used
 
 - Python 3.x
 - SQLite
@@ -30,7 +117,7 @@ The system generates realistic e-commerce data, cleans inconsistent records, loa
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```
 ecommerce-analytics-system/
@@ -54,30 +141,19 @@ ecommerce-analytics-system/
 ├── sql/
 │   ├── schema.sql
 │   ├── aggregations.sql
+│   ├── intermediate_queries.sql
 │   ├── window_functions.sql
 │   └── cohort_analysis.sql
 │
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## Installation
+# How to Run
 
-Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-Move into project directory
-
-```bash
-cd ecommerce-analytics-system
-```
-
-Install dependencies
+## 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -85,33 +161,53 @@ pip install -r requirements.txt
 
 ---
 
-## How to Run
-
-### 1. Generate Fake Data
+## 2. Generate Fake Data
 
 ```bash
 py scripts/generate_data.py
 ```
 
-### 2. Clean Data
+---
+
+## 3. Clean the Data
 
 ```bash
 py scripts/clean_data.py
 ```
 
-### 3. Load Database
+---
+
+## 4. Create and Load SQLite Database
 
 ```bash
 py scripts/load_database.py
 ```
 
-### 4. Generate Report
+---
+
+## 5. Generate Analytics Report
 
 ```bash
 py scripts/report_cli.py
 ```
 
-### 5. Run Edge Case Tests
+Enter:
+
+- Report Type (daily / weekly / monthly)
+- Start Date
+- End Date
+
+The report displays:
+
+- Total Orders
+- Total Revenue
+- Unique Customers
+- Top 3 Products
+- Revenue Comparison
+
+---
+
+## 6. Run Edge Case Tests
 
 ```bash
 py scripts/edge_case_tests.py
@@ -119,29 +215,19 @@ py scripts/edge_case_tests.py
 
 ---
 
-## SQL Analysis
-
-The project contains SQL queries for:
-
-- Revenue Analysis
-- Customer Analysis
-- Order Analysis
-- Return Analysis
-- Window Functions
-- CTEs
-- Cohort Analysis
-- Customer Segmentation
-- Product Ranking
-- Self Join Analysis
-
----
-
-## Sample Report Output
+# Sample Output
 
 ```
 ===== E-Commerce Analytics Report =====
 
 Report Type : Monthly
+
+Available Data Range
+
+From : 2024-01-09
+To   : 2026-12-05
+
+===== Summary =====
 
 Total Orders : 156
 
@@ -149,13 +235,13 @@ Total Revenue : 1053449.58
 
 Unique Customers : 127
 
-Top 3 Products
+===== Top 3 Products =====
 
 1. Science Book
 2. Novel
 3. Kurta
 
-Revenue Comparison
+===== Revenue Comparison =====
 
 Current Revenue : 1053449.58
 
@@ -166,20 +252,7 @@ Percentage Change : 126.09%
 
 ---
 
-## Edge Case Tests
+# Author
 
-The following validations are implemented:
-
-- Invalid Order ID
-- Discount Greater Than 100%
-- Zero Quantity
-- Future Order Date
-
----
-
-## Author
-
-**Name:** Your Name
-
-Intern Mini Project
+**Avantika Chouhan**
 
