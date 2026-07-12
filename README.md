@@ -182,7 +182,7 @@ Throughout these assignments, I gained practical experience in:
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Celebal_Excellence_Intern_Tasks.git
+git clone https://github.com/AvantikaChouhan/Celebal_Excellence_Intern_Tasks.git
 ```
 
 Navigate to the project folder
