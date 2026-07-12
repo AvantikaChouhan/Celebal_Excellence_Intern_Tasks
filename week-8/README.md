@@ -146,6 +146,7 @@ ecommerce-analytics-system/
 │   └── cohort_analysis.sql
 │
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
