@@ -1,0 +1,25 @@
+===== E-Commerce Analytics Report =====                   
+Enter Report Type (daily/weekly/monthly): monthly
+Enter Start Date (YYYY-MM-DD): 2025-01-01
+Enter End Date (YYYY-MM-DD): 2025-12-31
+
+Database Connected Successfully!
+
+Available Data Range
+From : 2024-01-09
+To   : 2026-12-05
+
+===== Summary =====
+Total Orders      : 156
+Total Revenue     : 1053449.58
+Unique Customers  : 127
+
+===== Top 3 Products =====
+1. Science Book - Quantity Sold: 53
+2. Novel - Quantity Sold: 45
+3. Kurta - Quantity Sold: 43
+
+===== Revenue Comparison =====
+Current Revenue  : 1053449.58
+Previous Revenue : 465945.65
+Percentage Change : 126.09%
